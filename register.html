@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="register.js" defer></script>
 </head>
 <body>
 
     <main>
         <h1>Registration page</h1>
-        <form action="javascript:">
+        <form id="form" action="javascript:">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             <br><br>
@@ -20,7 +21,7 @@
             <label for="password2">Confirm:</label>
             <input type="text" id="password2" name="password2" required>
             <br><br>
-            <button type="submit" onclick="location.href='private.html'">Register</button>
+            <button type="submit">Register</button>
             <br><br>
             <a href="login.html">Already have an account? Login here.</a>
         </form>

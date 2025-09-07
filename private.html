@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="private.js" defer></script>
+    
 </head>
-<body>
+<body hidden>
     <main>
-        <h1>Hello, username</h1>
-        <button onclick="location.href = 'index.html'">Log out</button>
+        <h1 >Hello, <output id="username">username</output>!</h1>
+        <button id="logOutBtn">Log out</button>
     </main>
 </body>
 </html>
